@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $color-text-accent;
+	font-weight: 700;
+}
+
+p {
+}
+
+// a {
+// 	text-decoration: none;
+// 	&[href] {
+// 		color: $color-primary;
+// 	}
+// }
+
+u {
+}
+
+b {
+}
+
+i {
+}
+
+span {
+	color: $color-text-secondary;
+}

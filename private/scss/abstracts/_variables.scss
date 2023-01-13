@@ -1,0 +1,41 @@
+// Colors Background
+$color-background: #ffffff;
+$color-foreground: #f1f1f1;
+$color-foreground-secondary: #f1f1f1;
+$color-foreground-tertiary: #f1f1f1;
+// Colors Text
+$color-text-accent: rgba(#101a2e, 0.9);
+$color-text-regular: rgba(#101a2e, 0.75);
+$color-text-secondary: rgba(#101a2e, 0.3);
+// Colors » Brand
+$color-primary: red;
+$color-secondary: blue;
+// Font
+$font-family: "Roboto", sans-serif;
+$font-size: 16px;
+$font-weight: 400;
+$line-height: 1.5;
+$letter-spacing: 1;
+// Max width
+$max-site-width: 1440px;
+$max-inner-width: 1200px;
+$max-content-width: 700px;
+$base-width: 96%;
+
+$temp: linear-gradient(
+		to top right,
+		transparent 49.9%,
+		gray 49.9%,
+		gray 50.1%,
+		transparent 50.1%
+	),
+	linear-gradient(
+		to bottom right,
+		transparent 49.9%,
+		gray 49.9%,
+		gray 50.1%,
+		transparent 50.1%
+	);
+
+// Transition
+$transition: all 0.3s ease-in-out;

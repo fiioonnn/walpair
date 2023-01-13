@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	background: $color-background;
+	height: 100%;
+	font-family: $font-family;
+	font-size: $font-size;
+	font-weight: $font-weight;
+	letter-spacing: $letter-spacing;
+	line-height: $line-height;
+	color: $color-text-regular;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	max-width: $max-site-width;
+	margin-inline: auto;
+}

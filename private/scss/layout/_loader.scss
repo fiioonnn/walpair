@@ -1,0 +1,16 @@
+.loader {
+	position: fixed;
+	inset: 0;
+	background: #1e2e45;
+	z-index: 1000;
+	display: grid;
+	place-items: center;
+	transition: $transition;
+	img {
+		max-width: 200px;
+		object-fit: contain;
+	}
+	&--hidden {
+		opacity: 0;
+	}
+}
